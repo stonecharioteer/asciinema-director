@@ -16,32 +16,11 @@ Welcome to asciinema-director's documentation!
 `asciinema-director` is an easier way to use `asciinema`, the amazing terminal
 recording tool.
 
-I've used asciinema for a very long time and the biggest problem is making
-flawless recordings.
-
-This project seeks to automate the creation of those recordings, using a source
-file that the user provides.
-
-Installation
---------------
-
-
-Use pip.
-
-.. code:: bash
-
-    $ pip install asciinema-director
-    $ asciinema-director --help                                                                                                                                                      git:(master*)
-    Usage: asciinema-director [OPTIONS] SRC DEST
-
-    Options:
-    -D, --delay FLOAT
-    --help             Show this message and exit.
-
 
 .. toctree::
     :maxdepth: 2
 
+    getting_started
     api
 
 
