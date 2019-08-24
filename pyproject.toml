@@ -8,6 +8,7 @@ authors = ["Vinay Keerthi <ktvkvinaykeerthi@gmail.com>"]
 python = "^3.7"
 asciinema = "^2.0"
 pexpect = "^4.7"
+click = "^7.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^3.0"
