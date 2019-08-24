@@ -15,4 +15,9 @@ To install:
 .. code:: bash
 
     $ pip install asciinema-director
-    $ asciinema-director --help
+    $ asciinema-director --help                                                                                                                                                      git:(master*)
+    Usage: asciinema-director [OPTIONS] SRC DEST
+
+    Options:
+    -D, --delay FLOAT
+    --help             Show this message and exit.
