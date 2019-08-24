@@ -13,10 +13,11 @@ def direct(commands, destination, delay=0.001):
     time.sleep(2)
     for command in commands:
         print(command)
+        # FIXME: Wait for prompt instead of this ugly time.sleep
         time.sleep(1)
         for char in command:
             client.send(char)
-            time.sleep(delay)
+            time.sleep(delay) # UGLY: Adjust delay so it is a little less 'robotic'
         client.sendline("")
         # client.sendline(command)
     client.sendline("exit")
