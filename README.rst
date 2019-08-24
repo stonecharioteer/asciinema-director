@@ -1,6 +1,7 @@
 ---------------------
 `asciinema-director`
 ---------------------
+|docs|
 
 `asciinema` is great. I use it everywhere. However, what isn't great is
 our ability to type without making mistakes. Everytime I want to demo
@@ -21,3 +22,9 @@ To install:
     Options:
     -D, --delay FLOAT
     --help             Show this message and exit.
+
+
+.. |docs| image:: https://readthedocs.org/projects/docs/badge/?version=latest
+    :alt: Documentation Status
+    :scale: 100%
+    :target: https://docs.readthedocs.io/en/latest/?badge=latest
