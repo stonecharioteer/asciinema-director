@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "asciinema-director"
+version = "0.1.0"
+description = ""
+authors = ["Vinay Keerthi <ktvkvinaykeerthi@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+asciinema = "^2.0"
+pexpect = "^4.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+sphinx = "^2.2"
+sphinx_rtd_theme = "^0.4.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
