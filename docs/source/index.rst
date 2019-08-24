@@ -6,11 +6,20 @@
 Welcome to asciinema-director's documentation!
 ==============================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
 
+`asciinema-director` is an easier way to use `asciinema`, the amazing terminal
+recording tool.
 
+I've used asciinema for a very long time and the biggest problem is making flawless
+recordings.
+
+This project seeks to automate the creation of those recordings, using a source
+file that the user provides.
+
+.. warning::
+
+    This project is in alpha stage, and is not ready for testing. Consult the
+    github project page for more information.
 
 Indices and tables
 ==================
