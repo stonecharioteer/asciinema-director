@@ -27,4 +27,4 @@ To install:
 .. |docs| image:: https://readthedocs.org/projects/docs/badge/?version=latest
     :alt: Documentation Status
     :scale: 100%
-    :target: https://docs.readthedocs.io/en/latest/?badge=latest
+    :target: https://asciinema-director.readthedocs.io/en/latest/?badge=latest
