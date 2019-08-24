@@ -7,6 +7,12 @@ Welcome to asciinema-director's documentation!
 ==============================================
 
 
+
+.. warning::
+
+    This project is in alpha stage, and is not ready for testing. Consult the
+    github project page for more information.
+
 `asciinema-director` is an easier way to use `asciinema`, the amazing terminal
 recording tool.
 
@@ -16,10 +22,21 @@ flawless recordings.
 This project seeks to automate the creation of those recordings, using a source
 file that the user provides.
 
-.. warning::
+Installation
+--------------
 
-    This project is in alpha stage, and is not ready for testing. Consult the
-    github project page for more information.
+
+Use pip.
+
+.. code:: bash
+
+    $ pip install asciinema-director
+    $ asciinema-director --help                                                                                                                                                      git:(master*)
+    Usage: asciinema-director [OPTIONS] SRC DEST
+
+    Options:
+    -D, --delay FLOAT
+    --help             Show this message and exit.
 
 
 .. toctree::
