@@ -1,0 +1,10 @@
+
+Todo:
+  ☐ Implement waiting for prompt. @created(19-08-24 21:47)
+  ☐ Improve 'screenplay' file. @created(19-08-24 21:47)
+    ☐ Add validation. @created(19-08-24 21:47)
+    ☐ Add support for modifier keys. @created(19-08-24 21:48)
+    ☐ Add support for checking modifier keys @created(19-08-24 21:48)
+  ☐ Update docs. @created(19-08-24 21:48)
+    ☐ Add demo cast files to the docs. @created(19-08-24 21:49)
+  ☐ Write tests. @created(19-08-24 21:49)
