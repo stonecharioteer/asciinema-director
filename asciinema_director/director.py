@@ -21,3 +21,10 @@ def direct(commands, destination, delay=0.001):
         # client.sendline(command)
     client.sendline("exit")
     client.close()
+
+
+def direct_from_file(src_file, destination, delay=0.001):
+    """Create asciicast file from source file."""
+    with open(src_file) as f:
+        commands = list(f.readlines())
+    direct(commands, destination, delay)
