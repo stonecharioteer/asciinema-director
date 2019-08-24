@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "asciinema-director"
-version = "0.1.0"
+version = "0.1.1"
 description = "A way to record asciinema cast files like a pro."
 authors = ["Vinay Keerthi <ktvkvinaykeerthi@gmail.com>"]
 
